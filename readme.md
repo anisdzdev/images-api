@@ -64,21 +64,21 @@ GET localhost:3000/api/images/search/:query
 ```
 
 To post a new image under the user with the Token passed in the Authorization header. It returns the created image.<br>
-3 body parameters (Form-Data) : ```image(as file), title, description```
+3 body parameters (Form-Data) : ```image(as file), title, description```<br>
 Authorization : ```Bearer <Token>```
 ```sh
 POST localhost:3000/api/images/
 ```
 
 To edit an existing image with id "id". It only allows the user who owns the image to edit it.<br>
-2 optional body parameters (JSON/Form-Data) : ```title, description```
+2 optional body parameters (JSON/Form-Data) : ```title, description```<br>
 Authorization : ```Bearer <Token>```
 ```sh
 PATCH localhost:3000/api/images/:id
 ```
 
 To delete an existing image with id "id". It only allows the user who owns the image to delete it.<br>
-1 parameter (URL) : ```id```
+1 parameter (URL) : ```id```<br>
 Authorization : ```Bearer <Token>```
 ```sh
 DELETE localhost:3000/api/images/:id
