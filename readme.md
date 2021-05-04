@@ -8,6 +8,14 @@
 
 > Image repository api created for the Shopify Developer Challenge. It implements features such as image uplaod, image search, password encryption, secure data handling.
 
+## Prerequisites
+
+```
+Node.js
+npm
+MongoDB
+```
+
 ## Install
 
 ```sh
